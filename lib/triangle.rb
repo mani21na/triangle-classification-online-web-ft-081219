@@ -30,8 +30,7 @@ class Triangle
   def kosher_triangle2 
     x + y > z && x + z > y && y + z > x
   end 
-end
 
-class TriangleError < StandardError
-  
+  class TriangleError < StandardError
+  end
 end
