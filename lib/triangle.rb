@@ -10,7 +10,6 @@ class Triangle
   def kind
     if kosher_triangle == true && kosher_triangle2 == true 
       puts true 
-    elsif 
     else 
       raise TriangleError 
     end 
